@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="btnHover.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/btnHover.css">
+  <title>Presidio Task</title>
+</head>
+<body>
+<!---HEADER-->
+  <div class="container-fluid">
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><b>Behance</b></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item btn h">
+              <a class="nav-link btn text-dark" href="#">For You</a>
+            </li>
+            <li class="nav-item btn h">
+              <a class="nav-link btn text-dark" href="#">Discover</a>
+            </li>
+            <li class="nav-item btn h">
+              <a class="nav-link btn text-dark" href="#">Hire</a>
+            </li>
+            <li class="nav-item btn h">
+              <a class="nav-link btn text-dark" href="#">Assets</a>
+            </li>
+            <li class="nav-item btn h">
+              <a class="nav-link btn text-dark" href="#">Jobs</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <button class="btn" data-mdb-toggle="popover"
+            title="Bell Icon"
+            
+            data-mdb-trigger="hover">
+              <img src="/images/logo3.png" width="20" style="background-color: wheat;"/>
+          </button>
+            <a href="loginpage.html" class="btn btn-outline-primary my-2 my-sm-0 mr-2 rounded-pill" role="button" aria-pressed="true" target="_blank"><span style="color: blue;">Log In</span></a>
+            <a href="loginpage.html" class="btn btn-primary my-2 my-sm-0 mr-2 rounded-pill" role="button" aria-pressed="true" target="_blank"><span style="color: rgb(255, 255, 255);">Sign Up</span></a></a>
+            <button class="btn rounded-pill btn-outline-dark btn-sm" data-mdb-toggle="popover"
+            title="Free Trial Popover"
+            data-mdb-trigger="hover" >
+              <img src="/images/logo2.jpeg" width="28" style="background-color: wheat;" /> <span style="color: rgb(0, 0, 0); font-weight:bold">Free Trial</span>
+          </button>
+          <button class="btn" data-mdb-toggle="popover"
+              title="Adobe Popover"
+              data-mdb-trigger="hover">
+          <a class="navbar-brand" href="#"><img src="/images/logo.png" alt="" style="height: 60px; width:80px"></a>
+
+          </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+    <header>
+      <nav class="navbar navbar-light bg-light">
+        <form class="form-inline">
+          <input type="text" class="search-click" name="" placeholder="Search for creative world at work" />
+          <div class="navbar justify-content-md-end">
+            <button class="btn btn-outline-dark my-2 my-sm-0 mx-2" type="submit">Projects</button>
+            <button class="btn btn-outline-danger my-2 my-sm-0 mx-2" type="submit">Images</button>
+            <button class="btn btn-outline-dark my-2 my-sm-0 mx-2" type="submit">Prototypes</button>
+            <button class="btn btn-outline-danger my-2 my-sm-0 mx-2" type="submit">Search</button>
+            <button class="btn btn-outline-dark my-2 my-sm-0 mx-2" type="submit">Moodboards</button>
+          </div>
+          
+        </form>
+      </nav>
+    </header>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupported" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupported">
+          <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item dropdown btn">
+              <a class="nav-link dropdown-toggle btn  bg-outline-dark btn-sm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <b>Subscriptions</b>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="width: 500px;">
+                <form class="m-4"> 
+                  <div class="form-group"> 
+                      <label for="fm1" class="form-label"> 
+                          Email Address 
+                      </label> 
+                      <input type="email" class="form-control" 
+                             id="fm1" 
+                             placeholder="Enter you email address" 
+                             required> 
+                  </div> 
+                  <div class="form-group"> 
+                      <label for="fm2" class="form-label"> 
+                          Contact Number 
+                      </label> 
+                      <input type="tel" class="form-control" 
+                             id="fm2" placeholder="Your contact number"> 
+                  </div> 
+                  <div class="form-group"> 
+                      <label for="fm3" class="form-label"> 
+                          Subscriptions duration in months
+                      </label> 
+                      <input type="text" class="form-control"
+                             id="fm3" required> 
+                  </div> 
+                  <div class="form-group py-2"> 
+                      <button type="submit" class="btn btn-primary"> 
+                          Get back to me
+                      </button> 
+                  </div> 
+              </form> 
+              </div>
+            </li>
+
+            <li class="nav-item dropdown btn">
+              <a class="nav-link dropdown-toggle btn border border-dark btn-sm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="/images/tools.jpg" width="28" style="background-color: wheat;"/> <span style="color: rgb(0, 0, 0); font-weight:bold">Tools</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Hardware</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Software</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown btn">
+              <a class="nav-link dropdown-toggle btn border border-dark btn-sm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="/images/colors.jpg" width="28" style="background-color: wheat;"/> <span style="color: rgb(0, 0, 0); font-weight:bold">Color</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Primary</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Secondary</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Tertiary</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown btn">
+              <a class="nav-link dropdown-toggle btn border border-dark btn-sm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="/images/location.jpeg" width="28" style="background-color: wheat;"/> <span style="color: rgb(0, 0, 0); font-weight:bold">Location</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!--Google map-->
+                  <div id="map-container-google-2" class="z-depth-1-half map-container" style="height: 150px">
+                    <iframe src="https://maps.google.com/maps?q=chicago&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    style="border:0" allowfullscreen></iframe>
+                  </div>
+                <!--Google Maps-->
+              </div>
+            </li>
+
+            <li class="nav-item dropdown btn">
+              <a class="nav-link dropdown-toggle btn border border-dark btn-sm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="/images/nft.webp" width="28" style="background-color: wheat;"/> <span style="color: rgb(0, 0, 0); font-weight:bold">NFTs</span>
+              </a>
+              <div class="dropdown-menu mx-2" aria-labelledby="navbarDropdown" style="width: 180px;">
+                <label for="customRange1" class="form-label mx-2">Price range</label>
+                    <input type="range" class="form-range mx-3" id="customRange1">
+              </div>
+            </li>
+
+            <li class="nav-item dropdown btn">
+              <a class="nav-link dropdown-toggle btn border border-dark btn-sm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="/images/assets.jpeg" width="28" style="background-color: wheat;"/> <span style="color: rgb(0, 0, 0); font-weight:bold">Assets</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Current</a>
+                <a class="dropdown-item" href="#">Fixed</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Tangible</a>
+                <a class="dropdown-item" href="#">Intangible</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Operating</a>
+                <a class="dropdown-item" href="#">Non-Operating</a>
+
+              </div>
+            </li>
+
+            <li class="nav-item dropdown btn">
+              <a class="nav-link dropdown-toggle btn border border-dark btn-sm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <img src="/images/school.jpg" width="28" style="background-color: wheat;"/> <span style="color: rgb(0, 0, 0); font-weight:bold">School</span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Private</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Government</a>
+                <a class="dropdown-item" href="#">Semi Government</a>
+              </div>
+            </li>
+
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <li class="nav-item dropdown btn">
+              <a class="nav-link dropdown-toggle btn btn-sm" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Recommended
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="">Most Viewed</a>
+                <a class="dropdown-item" href="#">Currated</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Most Discussed</a>
+                <a href="#" class="dropdown-item">Most Appreciated</a>
+                <a href="#" class="dropdown-item">Most Recent</a>
+              </div>
+            </li>
+          </form>
+        </div>
+      </nav>
+    </header>
+
+  </div>
+
+<!---CARO-->
+  <div class="container-fluid">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="/images/caro1.jpeg" alt="First slide" style="width: 1152px; height: 400px;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Work</h5>
+            <p>Share your work and get discovered by millions of creatives and clients</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/caro2.jpeg" alt="Second slide" style="width: 1152px; height: 400px;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Life</h5>
+            <p>Sell design assets and make money creating what you love</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="/images/caro3.jpeg" alt="Third slide" style="width: 1152px; height: 400px;">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Balance</h5>
+            <p>Find your next full time or freelance opportunity</p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+<!--TAGLINE-->
+  <section class="my-2">
+    <div class="container-fluid">
+        <h1 class="text-center fw-bold display-2">Options<spam class="text-danger">Below</spam>
+        </h1>
+    </div>
+</section>
+<!--Gallery-->
+<div class="container-fluid">
+  <div class="row my-2">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img1.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img2.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img3.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img4.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 2-->
+  <div class="row my-4">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img5.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img6.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img7.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img8.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Gallery 3-->
+
+  <div class="row my-2">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img9.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img10.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img11.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img12.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 4-->
+  <div class="row my-4">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img13.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img14.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img15.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img16.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 5-->
+  <div class="row my-2">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img17.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img18.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img19.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img20.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 6-->
+  <div class="row my-4">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img21.webp" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img22.webp" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img23.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img24.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Gallery 7-->
+
+  <div class="row my-2">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img25.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img26.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img27.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img28.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 8-->
+  <div class="row my-4">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img29.webp" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img30.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img31.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img32.jpg "class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 9-->
+
+  <div class="row my-2">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img1.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img2.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img3.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img4.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 10-->
+  <div class="row my-4">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img5.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img6.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img7.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img8.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 11-->
+  <div class="row my-2">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img9.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img10.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img11.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img12.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 12-->
+  <div class="row my-4">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img13.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img14.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img15.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img16.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--Gallery 13-->
+
+  <div class="row my-2">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img17.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img18.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img19.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img20.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 14-->
+  <div class="row my-4">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img21.webp" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img22.webp" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img23.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img24.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Gallery 15-->
+
+  <div class="row my-2">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img25.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img26.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img27.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img28.jpeg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!---Gallery 16-->
+  <div class="row mt-4 mb-2">
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img29.webp" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <p>~anonymous</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img30.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img31.jpg" class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="link-secondary" style="color: gray;">Author link</a>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="card c2" style="width: 21rem;">
+        <img src="/images/img32.jpg"class="card-img-top" alt="..." style="width: 21rem; height:15rem">
+        <div class="card-body">
+          <h6 class="card-title">Card with stretched link</h6>
+          <a href="#" class="btn btn-sm btn-outline-secondary stretched-link">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--Footer Table-->
+  <div class="class container-fluid">
+    <footer class="bg-dark text-center text-white">
+        <div class="container-fluid">
+
+          <table class="table table-dark table-bordered">
+            <thead>
+              
+              <tr>
+                <th scope="col"><h5>Build For Creatives</h5></th>
+                <th scope="col"><h5>Find Talent</h5></th>
+                <th scope="col"><h5>Behance</h5></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><a href=""> <span style="color: white;">Find Inspiration</span></a></td>
+                <td><a href=""> <span style="color: white;">Post a Job</span></a></td>
+                <td><a href=""> <span style="color: white;">About Behance</span></a></td>
+              </tr>
+              <tr>
+                <td><a href=""> <span style="color: white;">Get Hired</span></a></td>
+                <td><a href=""> <span style="color: white;">All Freelance Designers</span></a></td>
+                <td><a href=""> <span style="color: white;">Adobe Portfolio</span></a></td>
+              </tr>
+              <tr>
+                <td><a href=""> <span style="color: white;">Sell Creative Assets</span></a></td>
+                <td><a href=""> <span style="color: white;">Graphic Designers</span></a></td>
+                <td><a href=""> <span style="color: white;">Download the App</span></a></td>
+              </tr>
+              <tr>
+                <td><a href=""> <span style="color: white;">Sell Freelance Services</span></a></td>
+                <td><a href=""> <span style="color: white;">Photographs</span></a></td>
+                <td><a href=""> <span style="color: white;">Blog</span></a></td>
+
+              </tr>
+              <tr>
+                <td></td>
+                <td><a href=""> <span style="color: white;">Video Editors</span></a></td>
+                <td><a href=""> <span style="color: white;">Careers</span></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><a href=""> <span style="color: white;">Web Designers</span></a></td>
+                <td><a href=""> <span style="color: white;">Help Center</span></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td><a href=""> <span style="color: white;">Illustrators</span></a></td>
+                <td><a href=""> <span style="color: white;">Contact Us</span></a></td>
+              </tr>
+
+            </tbody>
+
+          </table>
+
+        </div>
+        <div class="container p-4 pb-0">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Twitter -->
+                <a class="btn btn-outline-danger btn-floating m-1" href="https://twitter.com/__Akarsh__" role="button" target="_blank"><i
+                  class="bi bi-twitter"></i>
+
+    
+                <!-- Instagram -->
+                <a class="btn btn-outline-danger btn-floating m-1" href="https://www.instagram.com/" role=" button" target="_blank"><i
+                        class="bi bi-instagram"></i></a>
+    
+                <!-- Linkedin -->
+                <a class="btn btn-outline-danger btn-floating m-1" href="https://www.linkedin.com/in/c0deblooded/"
+                    role="button" target="_blank"><i class="bi bi-linkedin"></i></a>
+    
+                <!-- Github -->
+                <a class="btn btn-outline-danger btn-floating m-1" href="https://github.com/code-blood-ed" role="button"><i
+                        class="bi bi-github" target="_blank"></i></a>
+            </section>
+            <!-- Section: Social media -->
+        </div>
+    
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Adobe Inc. All rights reserved.  
+            <br>
+            <a class="text-white" href="index.html">Go to Top</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <a class="navbar-brand" href="#"><img src="/images/logo.jpeg" alt="" style="height: 20px; width:80px"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropup">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              English
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Hindi</a>
+              <a class="dropdown-item" href="#">Tamil</a>
+              <a class="dropdown-item" href="#">Telugu</a>
+              <a class="dropdown-item" href="#">Chinese</a>
+            </div>
+          </li>
+
+          <li class="nav-item h">
+            <a class="nav-link text-white" href="#">TOU</a>
+          </li>
+
+          <li class="nav-item h">
+            <a class="nav-link text-white" href="#">Privacy</a>
+          </li>
+
+          <li class="nav-item h">
+            <a class="nav-link text-white" href="#">Community</a>
+          </li>
+
+          <li class="nav-item h">
+            <a class="nav-link text-white" href="#">Cookie preferences</a>
+          </li>
+
+          <li class="nav-item h">
+            <a class="nav-link text-white" href="#">Do not sell or share my personal information</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+
+    </div>
+
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/sc.js"></script>
+</body>
+</html>
